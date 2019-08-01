@@ -1,0 +1,36 @@
+:root{
+    --header-height: 160px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: var(--header-height);
+    text-decoration : none;
+    z-index: 100;
+}
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    padding: 0 40px;
+    background: white;
+}
+.headerWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    padding: 0 40px;
+    background: #f8f8f8;
+}
+.headerClear{
+    height: var(--header-height);
+}

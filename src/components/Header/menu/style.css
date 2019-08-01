@@ -1,0 +1,10 @@
+.headerNavList{
+    display: flex;
+    justify-content: space-between;
+    width:620px;
+    padding: 0;
+}
+.headerNavItem{
+
+    list-style: none;
+}
