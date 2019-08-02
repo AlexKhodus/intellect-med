@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9d6636-4966-4d4f-a706-d9725a78d828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/BannerTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/BannerTitle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/NextArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/NextArrow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/PrevArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/PrevArrow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Top.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFound.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +52,16 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.linters.configure.manually.selectedtslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\www\intellect-medical.com\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +108,7 @@
       <workItem from="1564724064156" duration="3206000" />
       <workItem from="1564730724809" duration="1019000" />
       <workItem from="1564733220964" duration="57000" />
-      <workItem from="1564754284298" duration="1282000" />
+      <workItem from="1564754284298" duration="2369000" />
     </task>
     <servers />
   </component>
