@@ -1,30 +1,28 @@
-import React from "react";
+import React from 'react';
 import search from './search.svg';
 import './style.css';
 
-class Search extends React.Component{
+interface IState {
+    active: boolean;
+    onClick: (e: Event) => void;
+}
 
-    constructor(props: any){
-        super(props);
-        this.state ={
-            active: false
-        };
-        this.openSearch = this.openSearch.bind(this);
-    }
+class Search extends React.Component<IState> {
 
-    openSearch(){
-        this.setState(state => ({
-            active: true
-        }));
-    }
-
-    render(){
+    public render() {
         return (
-            <button className="headerSearch" onClick={(e)=>this.openSearch()}>
-                <img src={search} title='logotype' alt="logotype" />
-            </button>
+            <div
+                className={
+                    this.props.active
+                        ? 'headerSearch -active'
+                        : 'headerSearch'
+                }>
+                <img className='headerSearchImg' src={ search } alt='search'/>
+                <input className='headerSearchInput' placeholder='Поиск по сайту' type='text'/>
+                <input className='headerSearchSubmit' type='submit'/>
+            </div>
         );
-    };
-};
+    }
+}
 
 export default Search;

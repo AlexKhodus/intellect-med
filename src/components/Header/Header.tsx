@@ -5,29 +5,45 @@ import Top from './Top';
 import Search from './Search/Search';
 import Button from '../Button/Button';
 import './style.css';
+interface IState {
+    searchIsActive: boolean;
+}
+interface IProps {
+    searchIsActive: boolean;
+}
 
-class Header extends React.Component {
-    constructor(props: any) {
+class Header extends React.Component<IProps, IState> {
+    constructor(props: IProps) {
         super(props);
+        this.toggleSearch = this.toggleSearch.bind(this);
+
         this.state = {
-            isMobile: true
-        }
+            searchIsActive: true
+        };
     }
-    render(){
+
+    public toggleSearch(e: Event) {
+        e.preventDefault();
+        console.log(e);
+    }
+
+    public render() {
+
         return(
             <Fragment>
-                <header className="header">
+                <header className='header'>
                     <Top/>
-                    <div className="headerWrap">
+                    <div className='headerWrap'>
                         <Logo/>
+                        if(this.state.searchIsActive){ <Menu/>}
                         <Menu/>
-                        <Search/>
-                        <Button text="Записаться на прием"/>
+                        <Search active={this.state.searchIsActive} onClick={this.toggleSearch}/>
+                        <Button text='Записаться на прием'/>
                     </div>
                 </header>
-                <div className="headerClear"></div>
+                <div className='headerClear'></div>
             </Fragment>
-        )
+        );
     }
 }
 

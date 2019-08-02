@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import './style.css';
 
-const Button = ({text}:any) => {
+const Button = ({text}: any) => {
     return (
-        <button className="btn">{text}</button>
+        <button className='btn'>{text}</button>
     );
 };
 

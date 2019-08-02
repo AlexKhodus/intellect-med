@@ -1,3 +1,3 @@
 export interface IDemoState {
-    list: string[]
+    list: string[];
 }

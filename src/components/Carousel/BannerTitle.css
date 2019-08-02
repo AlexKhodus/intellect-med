@@ -3,6 +3,11 @@
     background: #EFF5FB;
 }
 
+.bannerItem:focus,
+.bannerItem:active{
+    outline: none;
+}
+
 .bannerInfo{
     position: absolute;
     top: 50%;
@@ -30,6 +35,7 @@
 .bannerItemImg{
 
 }
+
 .bannerItemWrap{
     position: relative;
     display: flex;
