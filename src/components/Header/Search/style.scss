@@ -1,10 +1,10 @@
 .headerSearchWrap, .menuList {
-    position: relative
+    position: relative;
 }
 
-.menuItem, .menuList {
+.headerItem, .headerList {
     display: flex;
-    height: 100%
+    height: 100%;
 }
 
 .menuList {
@@ -12,7 +12,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    list-style-type: none
+    list-style-type: none;
 }
 
 .menuItem {
@@ -20,23 +20,22 @@
     align-items: center;
     padding: 0 15px;
     cursor: pointer;
-    transition: background, color .3s, .1s
+    transition: background, color .3s, .1s;
 }
 
 .menuItem:hover {
-    background: #52AC62
+    background: #52AC62;
 }
 
 .menuItem:hover a {
-    color: #fff
+    color: #fff;
 }
 
 .menuItemLink {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 150%
+    line-height: 150%;
 }
 
 .headerSearchInput, .headerSearchSubmit {
@@ -44,36 +43,36 @@
     border: none;
     outline: 0;
     font-size: 16px;
-    line-height: 150%
+    line-height: 150%;
 }
 
 @media all and (max-width: 1360px) {
     .menuItem {
-        padding: 0 10px
+        padding: 0 10px;
     }
 
     .menuItemLink {
-        font-size: 16px
+        font-size: 16px;
     }
 }
 
 @media all and (max-width: 1200px) {
     .headerMenu, .headerSearch {
-        display: none
+        display: none;
     }
 
     .mobileMenuBtn {
-        display: block
+        display: block;
     }
 }
 
 .headerSearch {
     flex: 1 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 .headerSearchImg {
-    cursor: pointer
+    cursor: pointer;
 }
 
 .headerSearchInput {
@@ -99,7 +98,7 @@
     display: none
 }
 
-.headerSearch.-active {
+.headerSearchActive {
     position: relative;
     display: flex;
     flex: 10 0 auto;
@@ -111,24 +110,24 @@
     background: #fff;
     box-sizing: border-box;
     border-radius: 30px;
-    transition: flex 1s ease-in-out
+    transition: flex 1s ease-in-out;
 }
 
 .bannerBtn, .newsBtn {
     border: none;
-    outline: 0
+    outline: 0;
 }
 
-.headerSearch.-active .headerSearchImg {
-    display: none
+.headerSearchActive .headerSearchImg {
+    display: none;
 }
 
-.headerSearch.-active .headerSearchInput {
+.headerSearchActive .headerSearchInput {
     display: flex;
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 
-.headerSearch.-active .headerSearchSubmit {
+.headerSearchActive .headerSearchSubmit {
     display: flex;
     background-image: url("./search.svg");
     background-repeat: no-repeat;
@@ -137,13 +136,13 @@
     color: transparent;
 }
 
-.headerSearch.-active .headerSearchClose {
+.headerSearchActive .headerSearchClose {
     position: absolute;
     right: 20px;
     display: block;
     width: 20px;
     height: 20px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .headerSearch{

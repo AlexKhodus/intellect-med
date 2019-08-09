@@ -1,50 +1,31 @@
 import React, { Fragment } from 'react';
-import Logo from './Logo';
-import Menu from './menu/Menu';
+import { useStore, useSelector } from 'react-redux';
+import Logo from './Logo/Logo';
+import Menu from './Menu/Menu';
 import Top from './Top';
 import Search from './Search/Search';
-import Button from '../Button/Button';
-import './style.css';
-interface IState {
-    searchIsActive: boolean;
-}
-interface IProps {
-    searchIsActive: boolean;
-}
+import Button from './Button/Button';
+import './style.scss';
 
-class Header extends React.Component<IProps, IState> {
-    constructor(props: IProps) {
-        super(props);
-        this.toggleSearch = this.toggleSearch.bind(this);
+const Header = () => {
+    const store = useStore();
+    useSelector((globalStore: any) => globalStore.Reducer.searchIsActive);
+    const state = store.getState().Reducer;
 
-        this.state = {
-            searchIsActive: true
-        };
-    }
-
-    public toggleSearch(e: Event) {
-        e.preventDefault();
-        console.log(e);
-    }
-
-    public render() {
-
-        return(
-            <Fragment>
-                <header className='header'>
-                    <Top/>
-                    <div className='headerWrap'>
-                        <Logo/>
-                        if(this.state.searchIsActive){ <Menu/>}
-                        <Menu/>
-                        <Search active={this.state.searchIsActive} onClick={this.toggleSearch}/>
-                        <Button text='Записаться на прием'/>
-                    </div>
-                </header>
-                <div className='headerClear'></div>
-            </Fragment>
-        );
-    }
-}
+    return(
+        <Fragment>
+            <header className='header'>
+                <Top/>
+                <div className='headerWrap'>
+                    <Logo/>
+                    { state.searchIsActive ? '' : <Menu/> }
+                    <Search active={state.searchIsActive} />
+                    <Button text='Записаться на прием'/>
+                </div>
+            </header>
+            <div className='headerClear'/>
+        </Fragment>
+    );
+};
 
 export default Header;

@@ -1,14 +1,14 @@
-.bannerItem{
+.Item{
     position: relative;
     background: #EFF5FB;
 }
 
-.bannerItem:focus,
-.bannerItem:active{
+.Item:focus,
+.Item:active{
     outline: none;
 }
 
-.bannerInfo{
+.Info{
     position: absolute;
     top: 50%;
     left: 12%;
@@ -20,23 +20,19 @@
     height:auto;
 }
 
-.bannerInfoTitle{
+.InfoTitle{
     font-size: 50px;
     line-height: 110%;
     letter-spacing: 0.02em;
     color: #65BBE9;
 }
 
-.bannerInfoDesc{
+.InfoDesc{
     font-size: 20px;
     line-height: 200%;
 }
 
-.bannerItemImg{
-
-}
-
-.bannerItemWrap{
+.ItemWrap{
     position: relative;
     display: flex;
     justify-content: center;

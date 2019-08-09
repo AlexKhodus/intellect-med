@@ -1,28 +1,28 @@
 import React from 'react';
-import search from './search.svg';
-import './style.css';
+import { useDispatch } from 'react-redux';
+import searchIcon from './search.svg';
+import './style.scss';
 
-interface IState {
-    active: boolean;
-    onClick: (e: Event) => void;
-}
-
-class Search extends React.Component<IState> {
-
-    public render() {
-        return (
-            <div
-                className={
-                    this.props.active
-                        ? 'headerSearch -active'
-                        : 'headerSearch'
-                }>
-                <img className='headerSearchImg' src={ search } alt='search'/>
-                <input className='headerSearchInput' placeholder='Поиск по сайту' type='text'/>
-                <input className='headerSearchSubmit' type='submit'/>
-            </div>
-        );
-    }
-}
+const Search = (props: any) => {
+    const dispatch = useDispatch();
+    return (
+        <div
+            className={
+                props.active
+                    ? 'headerSearchActive'
+                    : 'headerSearch'
+            }>
+            <img className='headerSearchImg'
+                 src={searchIcon} alt='search'
+                 onClick={() => dispatch({type: 'TOGGLE_SEARCH'})}/>
+            <input className='headerSearchInput'
+                   placeholder='Поиск по сайту'
+                   type='text'/>
+            <input className='headerSearchSubmit'
+                   type='submit'
+                   onClick={() => dispatch({type: 'TOGGLE_SEARCH'})}/>
+        </div>
+    );
+};
 
 export default Search;

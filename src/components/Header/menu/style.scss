@@ -1,0 +1,51 @@
+.headerNav {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    padding: 0;
+  }
+
+  &__item {
+    position: relative;
+    list-style: none;
+
+    &:hover {
+      .headerNav__innerList {
+        display: flex;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration: none;
+    color: black;
+  }
+
+  &__innerList {
+    position: absolute;
+    top: 100%;
+    display: none;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px;
+    background: white;
+    list-style: none;
+  }
+
+  &__innerItem {
+    padding: 10px 0;
+    border: 1px solid #a4a4a4;
+  }
+
+  &__innerLink {
+
+  }
+
+  &__innerLink {
+    color: black;
+    text-decoration: none;
+  }
+}

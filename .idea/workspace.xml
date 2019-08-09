@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9d6636-4966-4d4f-a706-d9725a78d828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/tslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/BannerTitle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/NextArrow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/PrevArrow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/styleNext.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/stylePrev.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Top.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/statics/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,16 +58,6 @@
         <option value="CSS File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>headerSearchInput</find>
-      <find>C4C4C4</find>
-      <find>height</find>
-      <find>input</find>
-      <find>.headerSearch.-active .headerSearchSubmit</find>
-      <find>.headerSearch.-active</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +87,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="ts.external.directory.path" value="C:\www\intellect-medical.com\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -89,6 +115,23 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.eject" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,7 +151,9 @@
       <workItem from="1564724064156" duration="3206000" />
       <workItem from="1564730724809" duration="1019000" />
       <workItem from="1564733220964" duration="57000" />
-      <workItem from="1564754284298" duration="2369000" />
+      <workItem from="1564754284298" duration="3079000" />
+      <workItem from="1564986178296" duration="76000" />
+      <workItem from="1565342035765" duration="4532000" />
     </task>
     <servers />
   </component>
@@ -120,7 +165,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

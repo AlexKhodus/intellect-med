@@ -1,3 +1,5 @@
-export enum Constants {
-    ADD_ITEM = 'ADD_ITEM'
-}
+export const Header =  {
+    TOGGLE_HEADER: 'TOGGLE_HEADER',
+    TOGGLE_MOBILE_MENU: 'TOGGLE_MOBILE_SEARCH',
+    TOGGLE_SEARCH: 'TOGGLE_SEARCH'
+};

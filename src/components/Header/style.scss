@@ -1,6 +1,4 @@
-:root{
-    --header-height: 160px;
-}
+
 .header{
     position: fixed;
     top: 0;
@@ -9,7 +7,7 @@
     flex-flow: row wrap;
     justify-content: space-between;
     width: 100vw;
-    height: var(--header-height);
+    height: 160px;
     text-decoration : none;
     z-index: 100;
 }
@@ -32,5 +30,6 @@
     background: #f8f8f8;
 }
 .headerClear{
-    height: var(--header-height);
+    height: 160px;
 }
+

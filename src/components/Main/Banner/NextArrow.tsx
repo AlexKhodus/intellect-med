@@ -1,9 +1,9 @@
 import React from 'react';
-import './styleNext.css';
+import './style.scss';
 
 const NextArrow = () => {
     return (
-        <div className='next slick-arrow slick-next'/>
+        <div className='next'/>
     );
 };
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import './stylePrev.css';
+import './style.scss';
 
 const PrevArrow = () => {
     return (
-        <div className='prev slick-arrow slick-prev'/>
+        <div className='prev'/>
     );
 };
 

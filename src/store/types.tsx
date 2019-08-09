@@ -1,3 +1,4 @@
-export interface IDemoState {
-    list: string[];
+export interface IAction {
+    type: string;
+    payloads?: string;
 }
