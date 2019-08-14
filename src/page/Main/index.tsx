@@ -1,17 +1,22 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { useStore, useSelector } from 'react-redux';
-import Banner from './Banner/';
-import Sales from './Sales/Carousel';
-import Doctors from './Doctors/';
-import About from './About/';
-import Reviews from './Feedback/';
-import style from'./main.module.scss';
+import Header from '../../components/Header';
+import Banner from '../../components/Banner';
+import Sales from '../../components/Sales';
+import Doctors from '../../components/Doctors';
+import About from '../../components/About';
+import Reviews from '../../components/Feedback';
+import style from './index.module.scss';
 
 const Main = () => {
     const store = useStore();
     useSelector((globalStore: any) => globalStore.Reducer.topMenu);
     const { topMenu } = store.getState().Reducer;
     return(
+        <Fragment>
+        <header>
+            <Header/>
+        </header>
         <main>
             <Banner />
             <div className={style.wrapper}>
@@ -21,6 +26,7 @@ const Main = () => {
             <About />
             <Reviews />
         </main>
+        </Fragment>
     );
 };
 

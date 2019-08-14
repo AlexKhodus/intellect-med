@@ -1,8 +1,8 @@
 import React from 'react';
-const Footer = () => {
+const Index = () => {
     return(
         <h1>Footer</h1>
     );
 };
 
-export default Footer;
+export default Index;

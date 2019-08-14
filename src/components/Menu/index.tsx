@@ -1,7 +1,7 @@
 import React from 'react';
 import {useStore, useSelector} from 'react-redux';
 import {NavLink} from 'react-router-dom';
-import style from './style.module.scss';
+import style from './index.module.scss';
 
 interface IMenuItem {
     name: string,

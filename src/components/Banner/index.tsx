@@ -3,7 +3,7 @@ import { useStore, useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import PrevArrow from './PrevArrow';
 import NextArrow from './NextArrow';
-import style from './BannerTitle.module.scss';
+import style from './index.module.scss';
 const bannerImg = require('./banner.jpg');
 
 const settings = {

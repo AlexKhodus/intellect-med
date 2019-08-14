@@ -3,43 +3,44 @@ import { useStore, useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import { ArrowNext, ArrowPrev } from './Arrows';
 import style from './index.module.scss';
-const img = require('../../../statics/sale1.jpg');
+const img = require('../../statics/foto.jpg');
 
 const settings = {
     dots: false,
     infinite: true,
-    margin: '20px',
     nextArrow: <ArrowNext />,
     prevArrow: <ArrowPrev />,
     slidesToScroll: 1,
-    slidesToShow: 4,
+    slidesToShow: 3,
     speed: 300
 };
 
-interface ISales {
+interface IDoctors {
     alt: string,
     title: string,
     img: string,
-    date: string,
-    desc: string
+    name: string,
+    position: string,
+    experience: string
 }
 
-const Carousel = () => {
+const Index = () => {
     const store = useStore();
-    const { sales } = store.getState().Reducer;
-    useSelector((globalStore: any) => globalStore.Reducer.sales);
+    const { doctors } = store.getState().Reducer;
+    useSelector((globalStore: any) => globalStore.Reducer.doctors);
     return(
-        <div className={style.wrap}>
-            <h2 className={style.title}>Акции</h2>
+        <div className={style.salesWrap}>
+            <h2 className={style.title}>Врачи</h2>
             <Slider ref={
                 (slider) => (slider) } {...settings}>
-                {sales.map(
-                    ({ alt, title, date, desc}: ISales, index: number) => (
+                {doctors.map(
+                    ({ alt, title, name, position, experience}: IDoctors, index: number) => (
                         <div className={style.item} key={index} >
                             <img className={style.img} src={img} alt={alt} title={title}/>
-                            <div className={style.textWrap}>
-                                <p className={style.date}>{date}</p>
-                                <p className={style.desc}>{desc}</p>
+                            <div className={style.wrapper}>
+                                <p className={style.name}>{name}</p>
+                                <p className={style.position}>{position}</p>
+                                <p className={style.experience}>{experience}</p>
                             </div>
                         </div>
                     )
@@ -49,4 +50,4 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default Index;

@@ -2,55 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9d6636-4966-4d4f-a706-d9725a78d828" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/menu/style.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Feedback/index.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Main/Feedback/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/fonts/addFonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/NotFound/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/page/Services/index.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Button/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Button/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Button/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Search/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Button/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Search/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Search/index.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Top.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/style.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/BannerTitle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Banner/BannerTitle.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/NextArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Banner/NextArrow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/PrevArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Banner/PrevArrow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Banner/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/About/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/Arrows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Doctors/Arrows.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Doctors/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Doctors/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/Arrows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Sales/Arrows.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Sales/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Sales/index.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/ajax.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/About/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/Menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/menu/style.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/About/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/About/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/BannerTitle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/NextArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/NextArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/PrevArrow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/PrevArrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Banner/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/Arrows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Doctors/Arrows.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Doctors/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Doctors/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Doctors/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Feedback/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Feedback/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Feedback/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Main/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/Arrows.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sales/Arrows.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sales/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Sales/index.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sales/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Main/index.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NotFound/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/NotFound/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Services/index.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,16 +86,16 @@
     <property name="ts.external.directory.path" value="C:\www\intellect-medical.com\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\intellect-medical.com\src\components" />
+      <recent name="C:\www\intellect-medical.com\src\page" />
+      <recent name="C:\www\intellect-medical.com\src\page\Services" />
+      <recent name="C:\www\intellect-medical.com\src" />
+      <recent name="C:\www\intellect-medical.com\src\components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\www\intellect-medical.com\src\components\Header" />
       <recent name="C:\www\intellect-medical.com\src\components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\www\intellect-medical.com\src" />
-      <recent name="C:\www\intellect-medical.com\src\components\Header" />
-      <recent name="C:\www\intellect-medical.com\src\components\Header\Search" />
-      <recent name="C:\www\intellect-medical.com\src\components\Button" />
-      <recent name="C:\www\intellect-medical.com\src\components\Header\menu" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,6 +152,7 @@
       <workItem from="1565587444943" duration="13939000" />
       <workItem from="1565681118153" duration="18799000" />
       <workItem from="1565706741762" duration="1118000" />
+      <workItem from="1565778084955" duration="2582000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import searchIcon from './search.svg';
-import style from './style.module.scss';
+import style from './index.module.scss';
 
 const Search = (props: any) => {
     const dispatch = useDispatch();

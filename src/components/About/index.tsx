@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import style from './index.module.scss';
-const img= require('../../../statics/about.jpg');
+const img= require('../../statics/about.jpg');
 
 const About = () => {
 

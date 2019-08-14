@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import { useStore, useSelector } from 'react-redux';
-import Logo from './Logo/Logo';
-import Menu from './Menu/Menu';
+import Logo from '../Logo';
+import Menu from '../Menu';
 import Top from './Top';
-import Search from './Search/Search';
-import Button from './Button/Button';
-import style from './style.module.scss';
+import Search from '../Search';
+import Button from '../Button';
+import style from './index.module.scss';
 
 const Header = () => {
     const store = useStore();
