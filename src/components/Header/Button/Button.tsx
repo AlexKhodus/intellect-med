@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.scss';
+import style from './style.module.scss';
 
 const Button = ({text}: any) => {
     return (
-        <button className='btn'>{text}</button>
+        <button className={style.btn}>{text}</button>
     );
 };
 

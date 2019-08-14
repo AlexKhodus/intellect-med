@@ -1,9 +1,9 @@
 import React from 'react';
-import './style.scss';
+import style from './style.module.scss';
 
 const Top = () => {
     return (
-        <div className='headerTop'>
+        <div className={style.headerTop}>
             <span>г. Краснодар, ул. Красных партизан, д.66</span>
             <span>+7(918)111-14-14</span>
         </div>

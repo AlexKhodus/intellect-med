@@ -2,7 +2,8 @@ import React from 'react';
 import { useStore, useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import { ArrowNext, ArrowPrev } from './Arrows';
-import './index.scss';
+import style from './index.module.scss';
+const img = require('../../../statics/foto.jpg');
 
 const settings = {
     dots: false,
@@ -23,23 +24,23 @@ interface IDoctors {
     experience: string
 }
 
-const Carousel = () => {
+const Index = () => {
     const store = useStore();
     const { doctors } = store.getState().Reducer;
     useSelector((globalStore: any) => globalStore.Reducer.doctors);
     return(
-        <div className="salesWrap">
-            <h2 className="title">Врачи</h2>
+        <div className={style.salesWrap}>
+            <h2 className={style.title}>Врачи</h2>
             <Slider ref={
                 (slider) => (slider) } {...settings}>
                 {doctors.map(
-                    ({ alt, title, img, name, position, experience}: IDoctors, index: number) => (
-                        <div className="item" key={index} >
-                            <img className="img" src={img} alt={alt} title={title}/>
-                            <div className="wrapper">
-                                <p className="name">{name}</p>
-                                <p className="position">{position}</p>
-                                <p className="experience">{experience}</p>
+                    ({ alt, title, name, position, experience}: IDoctors, index: number) => (
+                        <div className={style.item} key={index} >
+                            <img className={style.img} src={img} alt={alt} title={title}/>
+                            <div className={style.wrapper}>
+                                <p className={style.name}>{name}</p>
+                                <p className={style.position}>{position}</p>
+                                <p className={style.experience}>{experience}</p>
                             </div>
                         </div>
                     )
@@ -49,4 +50,4 @@ const Carousel = () => {
     );
 };
 
-export default Carousel;
+export default Index;

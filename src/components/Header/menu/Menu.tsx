@@ -1,7 +1,7 @@
 import React from 'react';
-import { useStore, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
-import './style.scss';
+import {useStore, useSelector} from 'react-redux';
+import {NavLink} from 'react-router-dom';
+import style from './style.module.scss';
 
 interface IMenuItem {
     name: string,
@@ -13,24 +13,24 @@ const Menu = () => {
     useSelector((globalStore: any) => globalStore.Reducer.topMenu);
     const {topMenu} = store.getState().Reducer;
     return (
-        <nav className='headerNav'>
-            <ul className='headerNav__list'>
+        <nav className={style.headerNav}>
+            <ul className={style.headerNav__list}>
                 {topMenu.map(
                     (item: any, index: number) => (
                         item.node === ""
                             ?
-                            <li className='headerNav__item' key={index}>
-                                <NavLink to={item.link} className='headerNav__link'>{item.name}</NavLink>
+                            <li className={style.headerNav__item} key={index}>
+                                <NavLink to={item.link} className={style.headerNav__link}>{item.name}</NavLink>
                             </li>
                             :
-                            <li key={item.index} className='headerNav__item'>
-                                <NavLink to={item.link} className='headerNav__link'>{item.name}</NavLink>
-                                <ul className='headerNav__innerList'>
+                            <li key={item.index} className={style.headerNav__item}>
+                                <NavLink to={item.link} className={style.headerNav__link}>{item.name}</NavLink>
+                                <ul className={style.headerNav__innerList}>
                                     {item.node.map(
                                         (elem: any, index: number) => (
-                                            <li key={'itemId' + index} className='headerNav__innerItem'>
+                                            <li key={'itemId' + index} className={style.headerNav__innerItem}>
                                                 <NavLink
-                                                    className='headerNav__innerLink'
+                                                    className={style.headerNav__innerLink}
                                                     key={'multiId' + index}
                                                     to={elem.link}>{elem.name}</NavLink>
                                             </li>

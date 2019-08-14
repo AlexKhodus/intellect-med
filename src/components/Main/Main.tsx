@@ -2,8 +2,10 @@ import React from 'react';
 import { useStore, useSelector } from 'react-redux';
 import Banner from './Banner/';
 import Sales from './Sales/Carousel';
-import Doctors from './Doctors/Carousel';
-import  './main.scss';
+import Doctors from './Doctors/';
+import About from './About/';
+import Reviews from './Feedback/';
+import style from'./main.module.scss';
 
 const Main = () => {
     const store = useStore();
@@ -12,10 +14,12 @@ const Main = () => {
     return(
         <main>
             <Banner />
-            <div className='wrapper'>
+            <div className={style.wrapper}>
                 <Sales />
             </div>
-            <Doctors/>
+            <Doctors />
+            <About />
+            <Reviews />
         </main>
     );
 };

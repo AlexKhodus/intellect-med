@@ -2,11 +2,13 @@ import React from 'react';
 import { useStore, useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import { ArrowNext, ArrowPrev } from './Arrows';
-import './index.scss';
+import style from './index.module.scss';
+const img = require('../../../statics/sale1.jpg');
 
 const settings = {
     dots: false,
     infinite: true,
+    margin: '20px',
     nextArrow: <ArrowNext />,
     prevArrow: <ArrowPrev />,
     slidesToScroll: 1,
@@ -27,17 +29,17 @@ const Carousel = () => {
     const { sales } = store.getState().Reducer;
     useSelector((globalStore: any) => globalStore.Reducer.sales);
     return(
-        <div className='wrap'>
-            <h2 className='title'>Акции</h2>
+        <div className={style.wrap}>
+            <h2 className={style.title}>Акции</h2>
             <Slider ref={
                 (slider) => (slider) } {...settings}>
                 {sales.map(
-                    ({ alt, title, img, date, desc}: ISales, index: number) => (
-                        <div className='item' key={index} >
-                            <img className='img' src={img} alt={alt} title={title}/>
-                            <div className='wrapper'>
-                                <p className='date'>{date}</p>
-                                <p className='desc'>{desc}</p>
+                    ({ alt, title, date, desc}: ISales, index: number) => (
+                        <div className={style.item} key={index} >
+                            <img className={style.img} src={img} alt={alt} title={title}/>
+                            <div className={style.textWrap}>
+                                <p className={style.date}>{date}</p>
+                                <p className={style.desc}>{desc}</p>
                             </div>
                         </div>
                     )

@@ -1,0 +1,29 @@
+.wrap{
+  display: flex;
+  flex-flow: row wrap;
+  width: 95vw;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.title{
+  width: 95vw;
+  max-width: 1180px;
+  margin: 0 auto 50px;
+  font-family: 'SF Bold';
+  font-weight: bold;
+  font-size: 40px;
+  color: #65BBE9;
+}
+.wrapText,
+.img{
+  width: calc(50% - 10px);
+}
+.wrapText{
+  margin-right: 20px;
+}
+.description{
+  font-family: 'SF Light';
+  font-size: 16px;
+  line-height: 200%;
+}

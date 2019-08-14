@@ -3,7 +3,7 @@ import { useStore, useSelector } from 'react-redux';
 import Slider from 'react-slick';
 import PrevArrow from './PrevArrow';
 import NextArrow from './NextArrow';
-import './BannerTitle.scss';
+import style from './BannerTitle.module.scss';
 const bannerImg = require('./banner.jpg');
 
 const settings = {
@@ -32,13 +32,13 @@ const Carousel = () => {
             (slider) => (slider) } {...settings}>
             {banner.map(
                 ({ alt, title, desc, id }: IBanner) => (
-                    <div className='Item' key={id} >
-                        <div className='Info'>
-                            <h1 className='InfoTitle'>{title}</h1>
-                            <p className='InfoDesc'>{desc}</p>
+                    <div className={style.item} key={id} >
+                        <div className={style.info}>
+                            <h1 className={style.title}>{title}</h1>
+                            <p className={style.desc}>{desc}</p>
                         </div>
-                        <div className='ItemWrap'>
-                            <img className='ItemImg' src={bannerImg} alt={alt} title={title}/>
+                        <div className={style.itemWrap}>
+                            <img className={style.itemImg} src={bannerImg} alt={alt} title={title}/>
                         </div>
                     </div>
                 )

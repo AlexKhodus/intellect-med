@@ -5,7 +5,7 @@ import Menu from './Menu/Menu';
 import Top from './Top';
 import Search from './Search/Search';
 import Button from './Button/Button';
-import './style.scss';
+import style from './style.module.scss';
 
 const Header = () => {
     const store = useStore();
@@ -14,16 +14,16 @@ const Header = () => {
 
     return(
         <Fragment>
-            <header className='header'>
+            <header className={style.header}>
                 <Top/>
-                <div className='headerWrap'>
+                <div className={style.headerWrap}>
                     <Logo/>
                     { state.searchIsActive ? '' : <Menu/> }
                     <Search active={state.searchIsActive} />
                     <Button text='Записаться на прием'/>
                 </div>
             </header>
-            <div className='headerClear'/>
+            <div className={style.headerClear}/>
         </Fragment>
     );
 };
